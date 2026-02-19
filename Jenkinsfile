@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        PROJECT_NAME = "swiggy_cicd_docker_ansible_war"
+        PROJECT_NAME = "asnible-docker-cicd-master"
         DOCKERHUB_USERNAME = "yashaswinihp23"
         DOCKERHUB_REPO = "springboot_project"     
         IMAGE_NAME = "${DOCKERHUB_USERNAME}/${DOCKERHUB_REPO}"
