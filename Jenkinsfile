@@ -4,7 +4,7 @@ pipeline {
     environment {
         PROJECT_NAME = "swiggy_cicd_docker_ansible_war"
         DOCKERHUB_USERNAME = "yashaswinihp23"
-        DOCKERHUB_REPO = "yashaswinihp23/springboot_project"     // 👈 Changed here
+        DOCKERHUB_REPO = "springboot_project"     
         IMAGE_NAME = "${DOCKERHUB_USERNAME}/${DOCKERHUB_REPO}"
     }
 
